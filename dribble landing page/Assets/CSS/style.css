@@ -1,0 +1,61 @@
+body{
+      font-family:'Inter',sans-serif;
+      background:#f6f9f7;
+      color:#0f172a;
+    }
+    .navbar{background:#fff;padding:20px 0}
+    .navbar-brand{font-weight:700;color:#0f766e!important;display:flex;align-items:center;gap:10px}
+    .logo{
+      width:36px;height:36px;border-radius:10px;
+      background:linear-gradient(135deg,#22c55e,#0f766e);
+      display:flex;align-items:center;justify-content:center;
+      color:#fff;font-weight:700
+    }
+    .nav-link{
+      position:relative;
+      font-weight:500;
+      color:#334155;
+      padding:8px 0;
+      transition:color .3s ease
+    }
+    .nav-link:hover{color:#0f766e}
+    .nav-link::after{
+      content:"";
+      position:absolute;
+      left:0;
+      bottom:-6px;
+      width:0;
+      height:2px;
+      background:#0f766e;
+      transition:width .3s ease
+    }
+    .nav-link:hover::after{width:100%}
+    .btn-main{background:#0f766e;color:#fff;border-radius:30px;padding:10px 24px;transition:all .3s ease}
+    .btn-main:hover{background:#115e59;transform:translateY(-2px);box-shadow:0 8px 20px rgba(15,118,110,.35)}
+
+    /* HERO */
+    .hero{padding:90px 0}
+    .hero h1{font-size:48px;font-weight:700}
+    .hero span{color:#0f766e}
+    .hero p{color:#64748b;margin:20px 0 30px}
+    .stats-card{background:#fff;border-radius:20px;padding:25px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.06)}
+    .stats-card h4{font-weight:700;color:#0f766e}
+
+    /* DARK SECTION */
+    .dark-section{background:#052e2b;color:#fff;padding:90px 0;border-radius:50px}
+    .feature-box{background:#063f3a;border-radius:20px;padding:30px;height:100%}
+    .feature-box h6{font-weight:600}
+
+    /* BENEFITS */
+    .benefits{padding:90px 0}
+    .benefit-card{background:#fff;border-radius:20px;padding:30px;box-shadow:0 10px 25px rgba(0,0,0,.06)}
+
+    /* PRICING */
+    .pricing{background:#020617;color:#fff;padding:100px 0;border-radius:50px}
+    .price-card{background:#020617;border:1px solid #1e293b;border-radius:20px;padding:35px}
+    .price{font-size:36px;font-weight:700}
+
+    /* CTA */
+    .cta{background:#e8ffcf;padding:90px 0;border-radius:50px}
+
+    footer{background:#020617;color:#94a3b8;padding:60px 0}
